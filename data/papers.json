@@ -1,0 +1,182 @@
+[
+  {
+    "id": "debt-uncertainty-2025",
+    "title": "Debt Amplifies the Contractionary Effects of Uncertainty Shocks: Cross-Country and Firm-Level Empirics",
+    "authors": ["Jing Lian Suah"],
+    "publication": "Hong Kong Institute for Monetary and Financial Research Working Paper No. 08/2025",
+    "year": 2025,
+    "link": "https://www.aof.org.hk/docs/default-source/hkimr/working-papers/2025/full-text_wp-no-08_2025.pdf?sfvrsn=9438d469_3",
+    "category": "Economics"
+  },
+  {
+    "id": "marginal-propensity-2024",
+    "title": "A pseudo-panel analysis of marginal propensity to consume from transfers along the income distribution in Malaysia",
+    "authors": ["Jing Lian Suah"],
+    "publication": "Bank Negara Malaysia Working Paper WP1/2024",
+    "year": 2024,
+    "link": "https://www.bnm.gov.my/documents/20124/826852/suah-2024-marginalpropensities.pdf",
+    "category": "Economics"
+  },
+  {
+    "id": "plucking-model-2024",
+    "title": "The 'plucking' model of the unemployment rate floor: Cross-country estimates and empirics",
+    "authors": ["Jing Lian Suah"],
+    "publication": "Bank for International Settlements Working Paper 1159",
+    "year": 2024,
+    "link": "https://www.bis.org/publ/work1159.htm",
+    "category": "Economics"
+  },
+  {
+    "id": "plucking-empirical-2023",
+    "title": "An Empirical Take on the 'Plucking' Model",
+    "authors": ["Jing Lian Suah"],
+    "publication": "Bank Negara Malaysia Working Paper WP3/2023",
+    "year": 2023,
+    "link": "https://www.bnm.gov.my/documents/20124/826852/suah-2023-bnmwp323.pdf",
+    "category": "Economics"
+  },
+  {
+    "id": "floods-spending-2023",
+    "title": "Impact of 2021 Floods on Spending: An Event Study Using Daily State-Level Card Transactions and Mobility Data",
+    "authors": ["Jing Lian Suah"],
+    "publication": "Bank Negara Malaysia Working Paper WP2/2023",
+    "year": 2023,
+    "link": "https://www.bnm.gov.my/documents/20124/826852/suah-2023-bnmwp223.pdf",
+    "category": "Economics"
+  },
+  {
+    "id": "covid-cash-handouts-2023",
+    "title": "An Application of the Forecast-Based Interrupted Time Series Methodology to Evaluate Policy Impact Using Daily Data: The Impact of COVID-19 Cash Handouts on Daily Spending",
+    "authors": ["Jing Lian Suah"],
+    "publication": "Bank Negara Malaysia Working Paper WP1/2023",
+    "year": 2023,
+    "link": "https://www.bnm.gov.my/documents/20124/826852/suah-2023-bnmwp123.pdf",
+    "category": "Economics"
+  },
+  {
+    "id": "lives-livelihood-2023",
+    "title": "Lives and Livelihood, Not Quite a Trade-Off: A Cross-Country Analysis of the Short-Term Impact of COVID-19 Mortality on Real GDP",
+    "authors": ["Jing Lian Suah"],
+    "publication": "medRxiv",
+    "year": 2023,
+    "link": "https://doi.org/10.1101/2023.02.13.23285835",
+    "category": "Economics"
+  },
+  {
+    "id": "uncertainty-exchange-rate-2022",
+    "title": "Impact of uncertainty and exchange rate shocks: Theory and global empirics",
+    "authors": ["Jing Lian Suah"],
+    "publication": "Journal of Asian Economics",
+    "year": 2022,
+    "link": "https://doi.org/10.1016/j.asieco.2022.101510",
+    "category": "Economics"
+  },
+  {
+    "id": "cash-drops-vaccine-2021",
+    "title": "Cash, and \"Drops\": Boosting Vaccine Registrations",
+    "authors": ["Jing Lian Suah"],
+    "publication": "MPRA Working Paper",
+    "year": 2021,
+    "link": "https://mpra.ub.uni-muenchen.de/110912/1/MPRA_paper_110912.pdf",
+    "category": "Economics"
+  },
+  {
+    "id": "veiled-expectations-2020",
+    "title": "Veiled Expectations: The Heterogeneous Impact of Exchange Rate Shocks at the Sectoral-Level",
+    "authors": ["Jing Lian Suah"],
+    "publication": "MPRA Working Paper",
+    "year": 2020,
+    "link": "https://mpra.ub.uni-muenchen.de/109086/1/MPRA_paper_109086.pdf",
+    "category": "Economics"
+  },
+  {
+    "id": "crises-policy-covid-2020",
+    "title": "Crises and Policy: COVID-19 Truly is Different",
+    "authors": ["Jing Lian Suah"],
+    "publication": "Bank Negara Malaysia 1Q 2020 Quarterly Economic Bulletin",
+    "year": 2020,
+    "link": "https://www.bnm.gov.my/documents/20124/1067364/p2ba1.pdf",
+    "category": "Economics"
+  },
+  {
+    "id": "vaccine-effectiveness-children-2024",
+    "title": "Effectiveness of COVID-19 vaccines among children 6-11 years against hospitalization during Omicron predominance in Malaysia",
+    "authors": ["Jing Lian Suah", "Vivek Jason Jayaraj", "Masliyana Husin", "Peter Seah Keng Tok", "Azahadi Omar", "Sanjay Rampal", "Sheamini Sivasampu"],
+    "publication": "Scientific Reports",
+    "year": 2024,
+    "link": "https://doi.org/10.1038/s41598-024-55899-5",
+    "category": "Public health and epidemiology"
+  },
+  {
+    "id": "vaccine-effectiveness-bias-2022",
+    "title": "How Important Are Study Designs? A Simulation Assessment of Vaccine Effectiveness Estimation Bias with Time-Varying Vaccine Coverage, and Heterogeneous Testing and Baseline Attack Rates",
+    "authors": ["Jing Lian Suah", "Naor Bar-Zeev", "Maria Deloria Knoll"],
+    "publication": "medRxiv",
+    "year": 2022,
+    "link": "https://doi.org/10.1101/2022.08.25.22279235",
+    "category": "Public health and epidemiology"
+  },
+  {
+    "id": "booster-vaccination-delta-omicron-2022",
+    "title": "Real-world effectiveness of homologous and heterologous BNT162b2, CoronaVac, and AZD1222 booster vaccination against Delta and Omicron SARS-CoV-2 infection",
+    "authors": ["Jing Lian Suah", "Boon Hwa Tng", "Peter Seah Keng Tok", "Masliyana Husin", "Thevesh Thevananthan", "Kalaiarasu M Peariasamy", "Sheamini Sivasampu"],
+    "publication": "Emerging microbes & infections",
+    "year": 2022,
+    "link": "https://doi.org/10.1080/22221751.2022.2072773",
+    "category": "Public health and epidemiology"
+  },
+  {
+    "id": "sars-cov2-reinfection-malaysia-2022",
+    "title": "SARS-CoV-2 in Malaysia: A surge of reinfection during the predominantly Omicron period",
+    "authors": ["Su Lan Yang", "Jing Lian Suah", "Hoon Shien Teh", "Masliyana Husin", "Wen Yea Hwong"],
+    "publication": "The Lancet Regional Health - Western Pacific",
+    "year": 2022,
+    "link": "https://doi.org/10.1016/j.lanwpc.2022.100572",
+    "category": "Public health and epidemiology"
+  },
+  {
+    "id": "expert-review-vaccine-effectiveness-2022",
+    "title": "Expert review on global real-world vaccine effectiveness against SARS-CoV-2",
+    "authors": ["Sunate Chuenkitmongkol", "Rontgene Solante", "Erlina Burhan", "Suwat Chariyalertsak", "Nan-Chang Chiu", "Dung Do-Van", "Masliyana Husin", "Kao-Pin Hwang", "Sasisopin Kiertiburanakul", "Prasad S. Kulkarni", "Ping-Ing Lee", "Rommel Crisenio Lobo", "Cao Huu Nghia", "Anna Ong-Lim", "Sheamini Sivasampu", "Peter Seah Keng Tok", "Guy Thwaites", "Jing Lian Suah", "SEA Vaccine Effectiveness Expert Working Group"],
+    "publication": "Expert Review of Vaccines",
+    "year": 2022,
+    "link": "https://doi.org/10.1080/14760584.2022.2092472",
+    "category": "Public health and epidemiology"
+  },
+  {
+    "id": "bnt162b2-adolescents-2022",
+    "title": "Real-world effectiveness of BNT162b2 vaccine against SARS-CoV-2 infection among adolescents (12 to 17-year-olds) in Malaysia",
+    "authors": ["Jing Lian Suah", "Masliyana Husin", "Peter Seah Keng Tok", "Thevesh Thevananthan", "Boon Hwa Tng", "Kalaiarasu M Peariasamy", "Sheamini Sivasampu"],
+    "publication": "International Journal of Infectious Diseases",
+    "year": 2022,
+    "link": "https://doi.org/10.1016/j.ijid.2022.04.053",
+    "category": "Public health and epidemiology"
+  },
+  {
+    "id": "waning-vaccine-effectiveness-2022",
+    "title": "Waning COVID-19 vaccine effectiveness for BNT162b2 and CoronaVac in Malaysia: an observational study",
+    "authors": ["Jing Lian Suah", "Masliyana Husin", "Peter Seah Keng Tok", "Boon Hwa Tng", "Thevesh Thevananthan", "Ee Vien Low", "Maheshwara Rao Appannan", "Faizah Muhamad Zin", "Shahanizan Mohd Zin", "Hazlina Yahaya", "Kalaiarasu M Peariasamy", "Sheamini Sivasampu"],
+    "publication": "International Journal of Infectious Diseases",
+    "year": 2022,
+    "link": "https://doi.org/10.1016/j.ijid.2022.03.028",
+    "category": "Public health and epidemiology"
+  },
+  {
+    "id": "pick-ing-malaysia-2021",
+    "title": "PICK-ing Malaysia's epidemic apart: effectiveness of a diverse COVID-19 vaccine portfolio",
+    "authors": ["Jing Lian Suah", "Peter Seah Keng Tok", "Su Miin Ong", "Masliyana Husin", "Boon Hwa Tng", "Sheamini Sivasampu", "Thevesh Thevananthan", "Maheshwara Rao Appannan", "Faizah Muhamad Zin", "Shahanizan Mohd Zin", "Hazlina Yahaya", "Norhayati Rusli", "Mohd Fikri Ujang", "Hishamshah Mohd Ibrahim", "Noor Hisham Abdullah", "Kalaiarasu M Peariasamy"],
+    "publication": "Vaccines",
+    "year": 2021,
+    "link": "https://doi.org/10.3390/vaccines9121381",
+    "category": "Public health and epidemiology"
+  },
+  {
+    "id": "heterologous-homologous-boosting-2022",
+    "title": "Assessment of Heterologous and Homologous Boosting With Inactivated COVID-19 Vaccine at 3 Months Compared With Homologous Boosting of BNT162b2 at 6 Months",
+    "authors": ["Ee Vien Low", "Jing Lian Suah", "Peter Seah Keng Tok", "Masliyana Husin", "Boon Hwa Tng", "Thevesh Thevananthan", "Maheshwara Rao Appannan", "Hazlina Yahaya", "Faizah Muhamad Zin", "Shahanizan Mohd Zin", "Sheamini Sivasampu", "Kalaiarasu M Peariasamy"],
+    "publication": "JAMA Network Open",
+    "year": 2022,
+    "link": "https://doi.org/10.1001/jamanetworkopen.2022.26046",
+    "category": "Public health and epidemiology"
+  }
+]

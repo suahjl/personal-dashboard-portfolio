@@ -1,0 +1,19 @@
+[
+  {
+    "id": "paneleventstudy",
+    "name": "paneleventstudy",
+    "description": "Implements the panel (and single entity) event study models, covering the naive two-way fixed effects implementation, and the interaction-weighted implementation from Sun and Abraham (2021).",
+    "pypiUrl": "https://pypi.org/project/paneleventstudy",
+    "githubUrl": "https://github.com/suahjl/paneleventstudy",
+    "language": "Python"
+  },
+  {
+    "id": "localprojections",
+    "name": "localprojections",
+    "description": "Implements the local projections models for single entity time series, and panel / longitudinal data settings, due to Jorda (2005).",
+    "pypiUrl": "https://pypi.org/project/localprojections",
+    "githubUrl": "https://github.com/suahjl/localprojections",
+    "language": "Python"
+  }
+]
+

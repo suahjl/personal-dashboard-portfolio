@@ -5,12 +5,10 @@ import { NextResponse } from 'next/server';
  */
 const COUNTRY_NAME_MAP: Record<string, string> = {
   'australia': 'Australia',
-  'brazil': 'Brazil',
   'chile': 'Chile',
   'germany': 'Germany',
   'italy': 'Italy',
   'japan': 'Japan',
-  'mexico': 'Mexico',
   'united_kingdom': 'United Kingdom',
   'united_states': 'United States',
 };
@@ -25,8 +23,6 @@ const COUNTRY_FILES = [
   { filename: 'plucking_ugap_quarterly_germany.csv', countryKey: 'germany' },
   { filename: 'plucking_ugap_quarterly_italy.csv', countryKey: 'italy' },
   { filename: 'plucking_ugap_quarterly_australia.csv', countryKey: 'australia' },
-  { filename: 'plucking_ugap_quarterly_brazil.csv', countryKey: 'brazil' },
-  { filename: 'plucking_ugap_quarterly_mexico.csv', countryKey: 'mexico' },
   { filename: 'plucking_ugap_quarterly_chile.csv', countryKey: 'chile' },
 ];
 

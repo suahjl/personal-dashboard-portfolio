@@ -33,7 +33,7 @@ export default function Home() {
   const packages = getPackages();
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-gray-900 dark:text-gray-100">
       {/* Hero Section */}
       <section className="mb-16">
         <div className="text-center mb-8">
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           
           {/* Role Description */}
-          <p className="text-xl text-gray-900 mb-6">
+          <p className="text-xl text-gray-900 dark:text-gray-100 mb-6">
             Senior economist at the Monetary Authority of Singapore.
           </p>
 
@@ -60,7 +60,7 @@ export default function Home() {
             href="https://drive.google.com/file/d/1hI6Q1LcV8kcsMB1YUfbbTkp9h6vGJcZm/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition-colors font-medium"
+            className="px-6 py-3 bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-100 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors font-medium"
           >
             CV / resume
           </Link>
@@ -68,7 +68,7 @@ export default function Home() {
             href="https://github.com/suahjl"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors flex items-center justify-center"
+            className="p-3 bg-gray-800 text-white dark:bg-gray-700 dark:text-white rounded-lg hover:bg-gray-900 dark:hover:bg-gray-600 transition-colors flex items-center justify-center"
             aria-label="GitHub Profile"
           >
             <svg
@@ -88,7 +88,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/jingliansuah/"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center"
+            className="p-3 bg-blue-600 text-white dark:bg-blue-500 dark:text-white rounded-lg hover:bg-blue-700 dark:hover:bg-blue-400 transition-colors flex items-center justify-center"
             aria-label="LinkedIn Profile"
           >
             <svg
@@ -106,12 +106,12 @@ export default function Home() {
 
       {/* Papers Portfolio */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Research Papers</h2>
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8">Research Papers</h2>
         {papers.length > 0 ? (
           <>
             {/* Economics Papers */}
             <div className="mb-12">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Economics</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-6">Economics</h3>
               <div className="space-y-3">
                 {papers
                   .filter((paper) => paper.category === 'Economics')
@@ -123,7 +123,7 @@ export default function Home() {
 
             {/* Public Health Papers */}
             <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Public health and epidemiology</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-6">Public health and epidemiology</h3>
               <div className="space-y-3">
                 {papers
                   .filter((paper) => paper.category === 'Public health and epidemiology')
@@ -134,10 +134,10 @@ export default function Home() {
             </div>
           </>
         ) : (
-          <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200 text-center">
-            <p className="text-gray-600">
+          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-8 border border-gray-200 dark:border-gray-800 text-center">
+            <p className="text-gray-600 dark:text-gray-300">
               Papers will be displayed here. Add your papers to{' '}
-              <code className="bg-gray-100 px-2 py-1 rounded">data/papers.json</code>
+              <code className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">data/papers.json</code>
             </p>
           </div>
         )}
@@ -145,7 +145,7 @@ export default function Home() {
 
       {/* Packages Section */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Python Packages</h2>
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8">Python Packages</h2>
         {packages.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {packages.map((pkg) => (
@@ -153,10 +153,10 @@ export default function Home() {
             ))}
           </div>
         ) : (
-          <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200 text-center">
-            <p className="text-gray-600">
+          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-8 border border-gray-200 dark:border-gray-800 text-center">
+            <p className="text-gray-600 dark:text-gray-300">
               Packages will be displayed here. Add your packages to{' '}
-              <code className="bg-gray-100 px-2 py-1 rounded">data/packages.json</code>
+              <code className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">data/packages.json</code>
             </p>
           </div>
         )}

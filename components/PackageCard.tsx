@@ -6,16 +6,16 @@ interface PackageCardProps {
 
 export default function PackageCard({ package: pkg }: PackageCardProps) {
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-200">
-      <h3 className="text-xl font-semibold text-gray-900 mb-2">{pkg.name}</h3>
-      <p className="text-sm text-gray-700 mb-4">{pkg.description}</p>
+    <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-200 dark:border-gray-800">
+      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">{pkg.name}</h3>
+      <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">{pkg.description}</p>
       <div className="flex gap-3 mt-4 flex-wrap">
         {pkg.pypiUrl && (
           <a
             href={pkg.pypiUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 font-medium"
+            className="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
           >
             <svg
               className="mr-1 w-4 h-4"
@@ -38,7 +38,7 @@ export default function PackageCard({ package: pkg }: PackageCardProps) {
             href={pkg.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center text-sm text-gray-700 hover:text-gray-900 font-medium"
+            className="inline-flex items-center text-sm text-gray-700 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-100 font-medium"
           >
             <svg
               className="mr-1 w-4 h-4"

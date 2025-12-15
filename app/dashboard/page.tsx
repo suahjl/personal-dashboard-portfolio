@@ -107,16 +107,16 @@ export default function DashboardPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-4">U-rate gaps</h1>
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4">U-rate gaps</h1>
         
-        <div className="mb-4 text-gray-700 leading-relaxed">
+        <div className="mb-4 text-gray-700 dark:text-gray-200 leading-relaxed">
           <p>
             This page contains estimates of the latest u-rate gaps in{' '}
             <Link
               href="https://www.bis.org/publ/work1159.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800 underline"
+              className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline"
             >
               Suah (2024)
             </Link>
@@ -125,7 +125,7 @@ export default function DashboardPage() {
               href="https://github.com/suahjl/global-plucking"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800 underline"
+              className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline"
             >
               https://github.com/suahjl/global-plucking
             </Link>
@@ -134,7 +134,7 @@ export default function DashboardPage() {
         </div>
 
         <div className="mb-6">
-          <p className="text-xs text-gray-500 italic">
+          <p className="text-xs text-gray-500 dark:text-gray-400 italic">
             Disclaimer: All views expressed in the material on this website are mine, and do not necessarily represent those of my current and past employers, as well as other affiliate organisations.
           </p>
         </div>
@@ -183,7 +183,7 @@ export default function DashboardPage() {
         </div>
         
         <div className="mb-6">
-          <label htmlFor="chart-type-select" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="chart-type-select" className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">
             Chart Type:
           </label>
           <select
@@ -192,7 +192,7 @@ export default function DashboardPage() {
             onChange={(e) =>
               setSelectedChartType(e.target.value as 'urate-line' | 'urate-gap')
             }
-            className="px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="px-3 py-2 border border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             <option value="urate-line">U-rate and U-rate floor</option>
             <option value="urate-gap">U-rate gap</option>

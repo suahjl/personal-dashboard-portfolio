@@ -19,22 +19,22 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-200">
+    <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-200 dark:border-gray-800">
       <div className="flex justify-between items-start mb-3">
-        <h3 className="text-xl font-semibold text-gray-900">{project.title}</h3>
+        <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">{project.title}</h3>
         <span
-          className={`px-2 py-1 text-xs font-medium rounded-full ${statusColors[project.status]}`}
+          className={`px-2 py-1 text-xs font-medium rounded-full ${statusColors[project.status]} dark:bg-opacity-70`}
         >
           {statusLabels[project.status]}
         </span>
       </div>
-      <p className="text-gray-700 mb-4">{project.description}</p>
+      <p className="text-gray-700 dark:text-gray-300 mb-4">{project.description}</p>
       {project.technologies && project.technologies.length > 0 && (
         <div className="flex flex-wrap gap-2 mb-4">
           {project.technologies.map((tech) => (
             <span
               key={tech}
-              className="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded"
+              className="px-2 py-1 bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-200 text-xs rounded"
             >
               {tech}
             </span>
@@ -46,7 +46,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           href={project.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm text-blue-600 hover:text-blue-800 font-medium"
+          className="text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
         >
           View Project →
         </Link>

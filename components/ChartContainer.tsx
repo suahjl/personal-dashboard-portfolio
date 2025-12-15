@@ -52,13 +52,13 @@ export default function ChartContainer({
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+    <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md p-6 border border-gray-200 dark:border-gray-800 transition-colors">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
-        {title && <h2 className="text-2xl font-bold text-gray-900">{title}</h2>}
+        {title && <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">{title}</h2>}
         <div className="flex gap-3 flex-wrap">
           <button
             onClick={handleDownload}
-            className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 text-sm font-medium transition-colors"
+            className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-400 text-sm font-medium transition-colors"
           >
             Download CSV
           </button>
@@ -75,8 +75,8 @@ export default function ChartContainer({
         />
 
       {data.metadata && (
-        <div className="mt-6 pt-4 border-t border-gray-200">
-          <div className="text-sm text-gray-600 space-y-1">
+        <div className="mt-6 pt-4 border-t border-gray-200 dark:border-gray-800">
+          <div className="text-sm text-gray-600 dark:text-gray-300 space-y-1">
             {data.metadata.source && (
               <p>
                 <span className="font-medium">Source:</span> {data.metadata.source}
